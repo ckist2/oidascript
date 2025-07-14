@@ -49,7 +49,7 @@ baba() // Auf Wiedersehen!
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/oidascript
+git clone https://github.com/ckist2/oidascript
 cd oidascript
 ```
 
@@ -59,7 +59,7 @@ cd oidascript
 echo 'hawara("Servus aus OidaScript!")' > mein_programm.oida
 
 # Führe es aus
-python main.py mein_programm.oida
+python oidascript.py mein_programm.oida
 ```
 
 ## 📚 Beispiele
@@ -162,10 +162,10 @@ Willkommen bei der österreichischen Programmier-Revolution!
 
 ### Development Setup
 ```bash
-git clone https://github.com/yourusername/oidascript
+git clone https://github.com/ckist2/oidascript
 cd oidascript
-python main.py examples/test.oida  # Test basic functionality
-python main.py final_bootstrap.oida  # Test self-hosting
+python oidascript.py examples/test.oida  # Test basic functionality
+python oidascript.py final_bootstrap.oida  # Test self-hosting
 ```
 
 ### Code Style
