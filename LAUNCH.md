@@ -44,7 +44,7 @@ We are proud to announce the **official launch** of **OidaScript**, the world's 
 
 ```bash
 # Download OidaScript
-git clone https://github.com/yourusername/oidascript
+git clone https://github.com/ckist2/oidascript
 cd oidascript
 
 # Run the demo
@@ -151,9 +151,9 @@ We've proven that programming languages can:
 ---
 
 ## Quick Links
-- **Repository**: [GitHub](https://github.com/yourusername/oidascript)
+- **Repository**: [GitHub](https://github.com/ckist2/oidascript)
 - **Documentation**: [docs/syntax.md](docs/syntax.md)
 - **Examples**: [examples/](examples/)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/oidascript/issues)
+- **Issues**: [GitHub Issues](https://github.com/ckist2/oidascript/issues)
 
 **Servus und viel Spaß beim Programmieren! 🇦🇹**

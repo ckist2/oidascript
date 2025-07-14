@@ -25,12 +25,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/oidascript.git"
+    "url": "https://github.com/ckist2/oidascript.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/oidascript/issues"
+    "url": "https://github.com/ckist2/oidascript/issues"
   },
-  "homepage": "https://github.com/yourusername/oidascript#readme",
+  "homepage": "https://github.com/ckist2/oidascript#readme",
   "python": {
     "version": ">=3.8",
     "dependencies": []
