@@ -1,0 +1,53 @@
+{
+  "name": "oidascript",
+  "version": "1.0.0",
+  "description": "Die erste österreichische Programmiersprache - The first Austrian programming language with self-hosting capabilities",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "test": "python main.py examples/test.oida",
+    "bootstrap": "python main.py final_bootstrap.oida",
+    "demo": "python main.py examples/sauber.oida"
+  },
+  "keywords": [
+    "programming-language",
+    "austrian",
+    "österreich",
+    "self-hosting",
+    "bootstrap",
+    "interpreter",
+    "österreichisch",
+    "oida",
+    "wien",
+    "austria"
+  ],
+  "author": "OidaScript Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/oidascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/oidascript/issues"
+  },
+  "homepage": "https://github.com/yourusername/oidascript#readme",
+  "python": {
+    "version": ">=3.8",
+    "dependencies": []
+  },
+  "categories": [
+    "Programming Languages",
+    "Cultural",
+    "Austrian",
+    "Self-Hosting"
+  ],
+  "features": [
+    "Austrian German syntax",
+    "Self-hosting capabilities", 
+    "Module system",
+    "File I/O operations",
+    "Float number support",
+    "Cultural authenticity",
+    "Bootstrap ready"
+  ]
+}

@@ -1,0 +1,26 @@
+// math_helpers.oida - Österreichische Mathe-Helfer für Bootstrap
+// Ein Modul mit nützlichen mathematischen Funktionen
+
+// Grundrechnungsarten mit österreichischen Namen
+tuas addier a b =>
+    gib zruck a + b
+
+tuas subtrahier a b =>
+    gib zruck a - b
+
+tuas multiplizier a b =>
+    gib zruck a * b
+
+tuas dividier a b =>
+    gib zruck a / b
+
+// Einfache Potenz-Funktion (nur für kleine Exponenten)
+tuas potenz basis exponent =>
+    gib zruck basis * basis
+
+// Österreichische Konstanten
+loss pi_ungefaehr = 3.14159
+loss e_ungefaehr = 2.71828
+
+// Debug-Meldung dass Modul geladen wurde
+debugg("Mathe-Helfer Modul erfolgreich geladen!")

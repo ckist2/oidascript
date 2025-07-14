@@ -1,0 +1,41 @@
+// OidaScript - Saubere Österreichische Programmierung
+// Nur die Haupt-Syntax, keine Alternativen
+
+druck("=== OidaScript Demo ===")
+
+// Variablen
+loss name = "Sepp"
+loss alter = 30
+
+druck("Servus " + name + "!")
+druck("Du bist " + alter + " Jahre alt.")
+
+// Funktionen
+tuas grüßen person =>
+  druck("Griaß di, " + person + "!")
+
+tuas rechnen a b =>
+  gib zruck a * b
+
+// Funktionsaufrufe
+grüßen("Maria")
+loss ergebnis = rechnen(6, 7)
+druck("Ergebnis: " + ergebnis)
+
+// Conditionals
+wenn alter >= 18 =>
+  druck("Volljährig!")
+sonscht =>
+  druck("Noch zu jung.")
+
+// Listen
+loss zahlen = [10, 20, 30]
+loss erste_zahl = zahlen[0]
+druck("Erste Zahl: " + erste_zahl)
+
+// Wienerische Spezialfunktionen (nur die leiwanden)
+oida("Des funktioniert!")
+hawara("Gscheite Sache!")
+baba()
+
+druck("=== Ende ===")
